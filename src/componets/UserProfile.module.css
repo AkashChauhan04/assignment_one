@@ -1,0 +1,140 @@
+/* .settingsContainer {
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .profileSection {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .profileImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .cameraOverlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .userName {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .userEmail {
+    color: gray;
+    font-size: 16px;
+  }
+  
+  .userBio {
+    font-size: 14px;
+    margin-top: 10px;
+  } */
+
+
+
+  /* Center the container on the screen */
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2; /* Light background for contrast */
+}
+
+/* Responsive settings container */
+.settingsContainer {
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Profile picture section */
+.profileSection {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+/* Profile image */
+.profileImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Camera overlay icon */
+.cameraOverlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* User name */
+.userName {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+/* User email */
+.userEmail {
+  color: gray;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* User bio */
+.userBio {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #333;
+}
+
+/* Optional: responsiveness tweak for small devices */
+@media (max-width: 320px) {
+  .profileImage {
+    width: 80px;
+    height: 80px;
+  }
+
+  .cameraOverlay {
+    font-size: 12px;
+    padding: 4px;
+  }
+
+  .userName {
+    font-size: 18px;
+  }
+
+  .userEmail, .userBio {
+    font-size: 14px;
+  }
+}

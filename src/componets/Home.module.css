@@ -1,0 +1,47 @@
+
+  /* Center the container on the screen */
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* optional, for contrast */
+}
+
+/* Make the container responsive */
+.welcomeContainer {
+  width: 90%;
+  max-width: 400px;
+  height: auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* Buttons styling */
+.createAccountButton,
+.loginButton {
+  width: 100%;
+  padding: 12px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Individual button colors */
+.createAccountButton {
+  background-color: blue;
+}
+
+.loginButton {
+  background-color: blueviolet;
+}
